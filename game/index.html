@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOBO GAME</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="Icon" href="assets/css/icons8-dragon-30.png">
+</head>
+<body>
+    <div class="container">
+        <h1>Bopols Game</h1>
+        <div class="game">
+            <div id="name-class">
+                <span class="name">NAME: </span><strong><span class="player1"></span></strong>
+                <span class="class">CLASS: </span><strong><span class="player1"></span></strong>
+            </div>
+            <div id="stats">
+                <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+                <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+                <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+                <span class="stat">Mana: <strong><span id="manaText">100</span></strong></span>
+              </div>
+            <div id="output" class="output">
+Embark on a perilous journey through dark dungeons and treacherous caves, where every step reveals hidden dangers and untold treasures waiting to be discovered. Unravel mysteries, confront fearsome creatures, and emerge victorious as you delve deeper into the depths of adventure.</div>
+            <div class="actions">
+                <button onclick="goTo('town')">Go to Town/Sell Items</button>
+                <button onclick="goTo('cave')">Explore Cave</button>
+                <!-- <button onclick="goTo('shop')">Visit Shop</button> -->
+                <button onclick="goTo('dungeon')">Enter Dungeon</button>
+            </div>
+            <div id="output2" class="output2">
+           Day 1: you Just woke up and find your self in a new world</div>
+           <button id="potion-button" onclick="goTo('Potion')">Use Potion</button>
+           <button onclick="goTo('Sell')">Sell Items</button>
+           
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

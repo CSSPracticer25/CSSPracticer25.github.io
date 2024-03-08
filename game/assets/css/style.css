@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: "Roboto Mono", monospace;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34, 34, 100);
+    color: rgb(255, 253, 253);
+}
+
+span {
+    padding: 2px;
+    margin: 2px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.game {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.output, .output2 {
+    min-height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    background-color: #838383;
+    color: #fff;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 0 10px 10px 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #033d7a;
+    color: #fff;
+    border: 2px solid #9e2906;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+#potion-button {
+    background-color: #9e2906;
+}
+
+button:hover {
+    background-color: #0a0a0a;
+}
+
+#potion-button:hover {
+    background-color: #1ec508;
+}

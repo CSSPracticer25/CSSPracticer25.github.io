@@ -63,7 +63,7 @@ function encounterMonster() {
 
         if (monsterHealth <= 0) {
             let goldDropped = Math.floor(Math.random() * 50) + 10;
-            let xpDropped = Math.floor(Math.random() * 50) + 40 + Math.floor(playerXP / 50) * 2;
+            let xpDropped = Math.floor(Math.random() * 50) + 50 + Math.floor(playerXP / 50) * 2;
             let hpHealth = Math.floor(Math.random() * 15) + 10 + Math.floor(playerXP / 50) * 1;
             output.innerHTML += "<p>The " + monster + " dropped " + goldDropped + " gold!</p>";
             output.innerHTML += "<p>The " + monster + " give " + xpDropped + " XP!</p>";

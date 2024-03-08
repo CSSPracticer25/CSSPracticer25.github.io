@@ -111,12 +111,12 @@ function clearOutput() {
 function visitShop() {
     let output = document.getElementById("output");
     output.innerHTML = "<p>Welcome to the shop. What would you like to buy?</p>";
-    // Item list and buyItem function here
+
 }
 
 function sellItems() {
     let totalGold = 0;
-    // Calculation for selling items
+
     playerInventory = [];
     playerGold += totalGold;
     document.getElementById("output2").innerHTML = "Item Sold";

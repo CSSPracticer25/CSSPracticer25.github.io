@@ -128,7 +128,7 @@ function addItemToInventory() {
     let randomItem = items[Math.floor(Math.random() * items.length)];
     playerInventory.push(randomItem);
     let output2 = document.getElementById("output2");
-    output2.innerHTML += "<p>You found " + randomItem + "! and its not useable, maybe you can sell in the Town</p>";
+    output2.innerHTML += "<p>You found " + randomItem + "! and its not useable, maybe you can sell it somewhere in the Town</p>";
 }
 
 // function resetHealthWithXPBonus() {

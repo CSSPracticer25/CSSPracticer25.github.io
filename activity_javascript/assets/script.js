@@ -8,7 +8,7 @@ Execute.addEventListener('click', function() {
     for (let x = 1; x <= LimitRow; x++) {
         Divs += "<tr>";
         for (let y = 1; y <= LimitColumn; y++) {
-            Divs += "<td class='text-center bg-secondary m-2 p-2' style='width: 40px; height: 40px;'>" + (x * y) + "</td>";
+            Divs += "<td class='text-center text-white bg-secondary m-2 p-2' style='width: 40px; height: 40px;'>" + (x * y) + "</td>";
         }
         Divs += "</tr>";
     }

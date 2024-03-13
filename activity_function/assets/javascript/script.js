@@ -19,5 +19,5 @@ function calculate(operation) {
         result = "Invalid operation";
     }
 
-    document.getElementById("num-total").value = typeof result === "number" ? result.toFixed(2) : result;
+    document.getElementById("num-total").value = typeof result === "number" ? result : result;
 }

@@ -1,8 +1,8 @@
 let arrNum = [];
 
 function OddToEven(arr) {
-    const evenNum = arr.filter(num => num % 2 === 0);
-    const oddNum = arr.filter(num => num % 2 !== 0);
+    const evenNum = arr.filter(num => num % 2 === 0).join(",");
+    const oddNum = arr.filter(num => num % 2 !== 0).join(",");
     return [evenNum, oddNum];
 }
 
@@ -13,8 +13,9 @@ function enterNum() {
         const [evenNum, oddNum] = OddToEven(arrNum);
         console.log("Even numbers:", evenNum);
         console.log("Odd numbers:", oddNum);
+        console.log("***End of Program***");
     } else {
-        arrNum.push(number);
+        arrNum.push(parseInt(number));
         enterNum();
     }
 }
